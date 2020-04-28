@@ -6,10 +6,10 @@ enum { ROW=9, COL=9, N = 81, NEIGHBOR = 20 };
 const int NUM = 9;
 
 extern int neighbors[N][NEIGHBOR];
-extern int board[N];
-extern int spaces[N];
+extern int board[N];		// 81
+extern int spaces[N];		// 81
 extern int nspaces;
-extern int (*chess)[COL];
+extern int (*chess)[COL];	// n x 9
 
 void init_neighbors();
 void input(const char in[N]);

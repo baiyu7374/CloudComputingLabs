@@ -119,8 +119,8 @@ and the 3rd line in the output is the solution to puzzle
 Your program should be able to: 
 
 1. Accept **one** input file name, and the size of the input file is smaller than 100MB. 
-2. Successfully solve the puzzles in the input file, and output the results in the format described before.
-3. Use multiple threads/processes to make use of most of your machine's CPU cores.
+2. Successfully solve the puzzles in the input file, and **output the results in the format described before**.
+3. Use **multiple threads/processes** to make use of most of your machine's CPU cores.
 
 \[Tips\]: 1) Use event **queue** to dispatch tasks and merge results to/from worker threads. 2) Dynamically detect how many CPU cores are there on your machine, in order to decide how many threads/processes your program uses. 3) Be careful about the contention among multiple threads/processes
 

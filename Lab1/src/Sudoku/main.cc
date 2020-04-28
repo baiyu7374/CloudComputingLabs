@@ -35,9 +35,6 @@ int main(int argc, char* argv[])
       ++total;
       input(puzzle);
       init_cache();
-      //if (solve_sudoku_min_arity_cache(0)) {
-      //if (solve_sudoku_min_arity(0))
-      //if (solve_sudoku_basic(0)) {
       if (solve(0)) {
         ++total_solved;
         if (!solved())
